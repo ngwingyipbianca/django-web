@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+.sidebar {
+    display: block;
+    height: 100%;
+    background-color: blue;
+    width: 25%;
+    
+}
+
+.flex-sidebar {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: pink;
+    width: 25%;
+}
+
+.sidebar-link {
+    background-color: aquamarine;
+    align-self: center;
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+}

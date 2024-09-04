@@ -1,0 +1,17 @@
+{% extends "master_template.html" %}
+
+{% block title %}
+Document: List page
+{% endblock %}
+
+{% block content %}
+
+<h1>This is the list page.</h1>
+<p>This is my list</p>
+<ul>
+  {% for x in my_list_of_items %}
+  <li>{{ x.line_item }} : {{ x.line_item_description }}</li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
